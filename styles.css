@@ -1,5 +1,33 @@
-ul{
+/* ul{
  font-size:12px;
  text-align: center;
  list-style-position: inside;
+} */
+
+h1 {
+    height: 30px;
+}
+
+body {
+    background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #3C3D3F;
+    text-align: left;
+    margin: auto;
+}
+
+.content-container {
+    margin-top: 50px; 
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 80%;
+}
+
+.content-wrapper {
+    margin-left: auto;
+    margin-right: auto;
 }
